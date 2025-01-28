@@ -6,7 +6,7 @@
     <title>Document</title>
     <?php 
        print("hellow World.<br>Hi vimukthi");
-       echo '<br>SLIIT'
+       echo '<br>SLIIT At malabe'
     ?>
 </head>
 <body>
