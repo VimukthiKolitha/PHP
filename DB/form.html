@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studetn</title>
+    <link rel="stylesheet" href="./form.css"/> 
+    
+</head>
+<body>
+    <!--search-->
+    <form action="./Search.php" method="get">
+        <input type="text" placeholder="Search here name" name="name"/>
+        <input type="submit" value="Search"/>
+    </form>
+
+     <!--details enter-->
+    <form action="./DBconnection.php" method="get">
+
+        <input type="text" placeholder="Enter name" class="name" name="name"/>
+        <input type="number" placeholder="Enter marks" class="marks"name="marks"/>
+        <input type="submit" class="submit"/>
+
+    </form>
+    <!--display-->
+    <form action="./DBdisplay.php" method="get">
+ 
+        <input type="submit"  value="Display" class="submit"/>
+    </form>
+</body>
+</html>
